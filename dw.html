@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conception d'un Data Warehouse</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #F0F8FF; /* Fond clair bleu pour refléter le thème Data Warehouse */
+            color: #333;
+        }
+        .header {
+            background-color: #4B0082; /* Violet pour la section header */
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .btn-custom {
+            background-color: #4B0082;
+            border-color: #6A1B9A;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+        .btn-custom:hover {
+            background-color: #6A1B9A;
+        }
+        .card {
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .highlight {
+            color: #4B0082;
+        }
+        .portfolio-media {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>Conception d'un Data Warehouse</h1>
+        <p>Un projet visant à structurer et organiser les données pour un accès efficace à des fins analytiques à travers un Data Warehouse performant.</p>
+    </header>
+    
+    <div class="container my-5">
+        <div class="row">
+            <!-- Première section - Objectifs du projet -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Objectifs du projet</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Concevoir un Data Warehouse pour centraliser les données provenant de multiples sources.</li>
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Intégrer les données dans des schémas adaptés pour faciliter l'analyse.</li>
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Optimiser les performances des requêtes pour une analyse rapide et efficace des données.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Deuxième section - Résultats de l'analyse -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Résultats de l'Analyse</h2>
+                    <p>Création de modèles de données adaptés, permettant une analyse rapide, efficace et évolutive. Les données sont structurées pour répondre aux besoins spécifiques de l'entreprise.</p>
+                </div>
+            </div>
+            
+            <!-- Troisième section - Compétences clés -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Compétences clés</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-code-slash text-warning"></i> Maîtrise des langages SQL et des outils ETL pour l'extraction, la transformation et le chargement des données.</li>
+                        <li><i class="bi bi-gear-fill text-warning"></i> Compétences en modélisation de données et conception de schémas de Data Warehouse.</li>
+                        <li><i class="bi bi-server text-warning"></i> Expertise dans l'optimisation des performances des bases de données pour un traitement rapide des requêtes complexes.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Les Atouts du Data Warehouse</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h4>🔹 Centralisation</h4>
+                <p>Rassemblement des données provenant de différentes sources pour une gestion simplifiée.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📊 Performance</h4>
+                <p>Optimisation des requêtes pour des analyses rapides et pertinentes sur de grandes quantités de données.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>🔒 Sécurité</h4>
+                <p>Implémentation de stratégies de sécurité pour protéger les données sensibles au sein du Data Warehouse.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Compétences et Expertise</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <h3 class="text-primary">+1 an</h3>
+                <p>Expérience dans la conception de Data Warehouses pour des entreprises nécessitant une analyse avancée des données.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">SQL Server</h3>
+                <p>Expertise dans l'utilisation de SQL Server et d'autres SGBD pour la gestion des bases de données.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">ETL</h3>
+                <p>Compétence dans l'utilisation d'outils ETL pour l'intégration des données dans un Data Warehouse.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">Modélisation</h3>
+                <p>Expertise dans la création de schémas de données efficaces pour faciliter les analyses dans un Data Warehouse.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center">Démonstration Visuelle</h2>
+        <div class="card shadow-sm p-4">
+            <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/portfolio/DW.png" class="d-block w-100" alt="Image 1">
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Précédent</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Suivant</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center my-5">
+        <a href="index.html" class="btn btn-custom px-4 py-2 text-white">Retour à la page précédente</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

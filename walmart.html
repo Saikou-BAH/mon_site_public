@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Ventes de Walmart - Projet Business Intelligence</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #E6F7FF; /* Fond plus léger */
+            color: #333;
+        }
+        .header {
+            background-color: #8A2BE2;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .btn-custom {
+            background-color: #8A2BE2;
+            border-color: #8A2BE2;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+        .btn-custom:hover {
+            background-color: #8A2BE2;
+        }
+        .card {
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .highlight {
+            color: #1E90FF;
+        }
+        .portfolio-media {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>Analyse des Ventes de Walmart</h1>
+        <p>Un projet de Business Intelligence pour analyser les performances des ventes, identifier les tendances clés et proposer des recommandations stratégiques.</p>
+    </header>
+    
+    <div class="container my-5">
+        <div class="row">
+            <!-- Première section - Objectifs du projet -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Objectifs du projet</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Analyser les ventes de Walmart pour identifier les produits à forte demande.</li>
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Examiner les performances par magasin et par région.</li>
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Fournir des recommandations pour optimiser les stocks et augmenter les ventes.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Deuxième section - Résultats de l'analyse -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Résultats de l'Analyse</h2>
+                    <p>Examen des performances des produits et des tendances de vente au sein des différents magasins et régions.</p>
+                </div>
+            </div>
+            
+            <!-- Troisième section - Compétences clés -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Compétences clés</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-code-slash text-warning"></i> Analyse exploratoire des données avec Python et des bibliothèques comme Pandas, NumPy, et Matplotlib.</li>
+                        <li><i class="bi bi-gear-fill text-warning"></i> Prétraitement des données et nettoyage pour une analyse plus précise.</li>
+                        <li><i class="bi bi-bar-chart-line-fill text-warning"></i> Création de visualisations pour rendre les données accessibles et compréhensibles.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Les Atouts de l'Analyse des Ventes</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h4>🔹 Personnalisation</h4>
+                <p>L'analyse est réalisée spécifiquement pour les besoins de Walmart, en se concentrant sur les données pertinentes.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📊 Visualisation des Données</h4>
+                <p>Les graphiques générés permettent d'identifier facilement les produits et magasins les plus performants.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📈 Recommandations Stratégiques</h4>
+                <p>Les résultats de l'analyse offrent des insights qui permettent de prendre des décisions stratégiques pour améliorer les ventes.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Compétences et Expertise</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <h3 class="text-primary">+1 an</h3>
+                <p>Expérience dans l'analyse de données commerciales pour des entreprises internationales.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">Python</h3>
+                <p>Expertise dans l'utilisation de Python pour l'analyse et la visualisation des données.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">+1000</h3>
+                <p>Nombre de ventes analysées pour mieux comprendre les facteurs de succès.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">Personnalisé</h3>
+                <p>Chaque analyse est adaptée spécifiquement aux objectifs commerciaux de Walmart.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center">Vidéo de Démonstration</h2>
+        <video class="portfolio-media" autoplay loop muted>
+            <source src="assets/images/portfolio/7.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+        <p class="text-center mt-3">Découvrez l'analyse des ventes de Walmart en action et explorez les KPIs qui permettent de suivre la performance des produits.</p>
+    </div>
+
+    <div class="text-center my-5">
+        <a href="index.html" class="btn btn-custom px-4 py-2 text-white">Retour à la page précédente</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

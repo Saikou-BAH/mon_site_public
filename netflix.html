@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Données de Netflix - Projet Business Intelligence</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #E6F7FF; /* Fond plus léger */
+            color: #333;
+        }
+        .header {
+            background-color: #8A2BE2;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .btn-custom {
+            background-color: #8A2BE2;
+            border-color: #8A2BE2;
+            font-size: 18px;
+            border-radius: 8px;
+        }
+        .btn-custom:hover {
+            background-color: #8A2BE2;
+        }
+        .card {
+            border: none;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .highlight {
+            color: #1E90FF;
+        }
+        .portfolio-media {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>Dashboard Netflix</h1>
+        <p>Un projet Data pour analyser les performances des films et séries de Netflix et visualiser avec PowerBI.</p>
+    </header>
+    
+    <div class="container my-5">
+        <div class="row">
+            <!-- Première section - Objectifs du projet -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Objectifs du projet</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Analyser les performances des films et séries de Netflix.</li>
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Traiter les données avec Power Query pour un meilleur aperçu.</li>
+                        <li><i class="bi bi-check-circle-fill text-success"></i> Créer un dashboard interactif avec Power BI pour explorer les KPIs.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Deuxième section - Résultats de l'analyse -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Résultats de l'Analyse</h2>
+                    <p>Examen des tendances populaires, des genres les plus regardés et des performances des films et séries de Netflix.</p>
+                </div>
+            </div>
+            
+            <!-- Troisième section - Compétences clés -->
+            <div class="col-md-4">
+                <div class="card p-4 mb-4 shadow-sm h-100">
+                    <h2 class="text-center text-primary">Compétences clés</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-code-slash text-warning"></i> Analyse des données avec Power Query pour un traitement efficace.</li>
+                        <li><i class="bi bi-gear-fill text-warning"></i> Création de visualisations dynamiques avec Power BI.</li>
+                        <li><i class="bi bi-bar-chart-line-fill text-warning"></i> Exploitation des données pour offrir des recommandations stratégiques.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Les Atouts de l'Analyse de Netflix</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <h4>🔹 Personnalisation</h4>
+                <p>L'analyse est réalisée spécifiquement pour les besoins de Netflix, avec un focus sur les genres et les performances des contenus.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📊 Visualisation des Données</h4>
+                <p>Les graphiques générés offrent une vue claire des tendances de visionnage et des films populaires.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>📈 Insights Stratégiques</h4>
+                <p>Les résultats permettent d'élaborer des stratégies pour améliorer l'offre et la visibilité des contenus.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="text-center">Compétences et Expertise</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-3">
+                <h3 class="text-primary">+1 an</h3>
+                <p>Expérience dans l'analyse de données pour des plateformes de streaming et l'utilisation de Power BI.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">Power BI</h3>
+                <p>Expertise dans la création de dashboards interactifs pour l'analyse de données complexes.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">+1000</h3>
+                <p>Nombre de films et séries analysés pour détecter les performances et les tendances populaires.</p>
+            </div>
+            <div class="col-md-3">
+                <h3 class="text-primary">Personnalisé</h3>
+                <p>Chaque analyse est adaptée aux besoins spécifiques de Netflix pour optimiser les choix de contenu.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center">Vidéo de Démonstration</h2>
+        <video class="portfolio-media" autoplay loop muted>
+            <source src="assets/images/portfolio/27.2.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+        <p class="text-center mt-3">Découvrez l'analyse de Netflix en action et explorez les KPIs dans notre dashboard interactif.</p>
+    </div>
+
+    <div class="text-center my-5">
+        <a href="index.html" class="btn btn-custom px-4 py-2 text-white">Retour à la page précédente</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
